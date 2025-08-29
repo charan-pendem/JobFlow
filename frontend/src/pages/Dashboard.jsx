@@ -89,7 +89,7 @@ export default function Dashboard() {
       <div className="flex flex-col sm:flex-row justify-between items-center mb-10 gap-6 ml-6">
         {/* Left side: Header with Icon + User Name */}
         <div className="flex items-center gap-3">
-          <h2 className="text-3xl font-bold">{user?.name || "User"}</h2>
+          <h2 className="text-3xl font-bold">Your Applications</h2>
         </div>
 
         {/* Right side: Add Application button */}
