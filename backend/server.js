@@ -10,9 +10,7 @@ const app = express();
 
 // ✅ Update this part to configure CORS properly
 const allowedOrigins = [
-  "http://localhost:5173",     // without slash
-  "http://localhost:5173/",    // with slash
-  "https://job-flow-wine.vercel.app"
+  "https://job-flow-tv99.vercel.app"
 ];
 
 app.use(cors({
